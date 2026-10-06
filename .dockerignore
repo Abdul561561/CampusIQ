@@ -1,0 +1,22 @@
+# Exclude secrets and local configuration
+.env
+.env.local
+*.env
+
+# Exclude Git files
+.git
+.gitignore
+
+# Exclude Python bytecodes and virtual environments
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude local caches
+.pytest_cache/
+.coverage
+htmlcov/
+faiss_index/
